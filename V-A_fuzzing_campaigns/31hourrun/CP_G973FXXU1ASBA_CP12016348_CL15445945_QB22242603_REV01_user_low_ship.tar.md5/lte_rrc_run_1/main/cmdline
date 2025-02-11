@@ -1,0 +1,10 @@
+./firmwire.py
+--fuzz
+lte_rrc
+--fuzz-input
+@@
+--consecutive-ports
+30100
+--restore-snapshot
+CP_G973FXXU1ASBA_CP12016348_CL15445945_QB22242603_REV01_user_low_ship.tar.md5
+/workspaces/FirmWire/ndss22_experiments/firmware_samples/CP_G973FXXU1ASBA_CP12016348_CL15445945_QB22242603_REV01_user_low_ship.tar.md5
